@@ -1,0 +1,27 @@
+For the AAMAS paper, I generated output files from following runs 
+Interactive Run 0 - 4 in the menu
+and then used Matlab files to plot all the graphs. 
+I can send all matlab file if you need.
+
+All runs are  running in 
+mode == ExperimentMode.PROGRAMMED_RUN
+
+which is automatic mode for running VIP and crowd in the simulation.
+
+We are using four crowd configuration and in each configuration, VIP is running for 10 runs with different start and destination locations. 
+
+Following are the associated functions for 
+// Single robot run for fixed configuration 
+Run 0 === doSingleRobotFollow()
+
+//// 2 and 3  robots run for fixed configuration 
+Run 1 === doMultipleRobotFollow()
+
+// single robot run with TVR algo
+Run 2 === doCloseProtectionSingleRobot()
+
+//2 and 3 robot run with QLB algo
+Run 3 === doCloseProtectionMultipleRobot()
+
+// //2 and 3 robot run with TVR algo
+Run 4 === doMultipleRobotWithTVR()
